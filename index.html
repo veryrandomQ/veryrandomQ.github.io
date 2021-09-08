@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
+.tg .tg-0thz{border-color:inherit;font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+</style>
+<h2>Bar Chart & Pie Chart</h2>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-za14" colspan="4"></th>
+    <th class="tg-za14">1C-1Q</th>
+    <th class="tg-za14">1C-1Q</th>
+    <th class="tg-za14">1C-1Q</th>
+    <th class="tg-za14">1C-1Q</th>
+    <th class="tg-za14">1C-1Q</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0thz" colspan="4"><span style="font-weight:bold">Temporal</span></td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="11">Auditory Dimension</td>
+    <td class="tg-0thz" colspan="3"><span style="font-weight:bold">Speech</span></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="10">Non-Speech</td>
+    <td class="tg-fymr" rowspan="6">Auditory Channel</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Pitch</span></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Volume</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Panning</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Length</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Tapping</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Timbre</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="2">Polarity</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Positive</span></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Negative</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="2">Continuity</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Continuous</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Discrete</span></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+  </tr>
+  <tr>
+    <td class="tg-za14" colspan="2" rowspan="2"></td>
+    <td class="tg-0thz" rowspan="2">Audio </td>
+    <td class="tg-0thz">Up &amp; Down</td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Upward & Downward/1Q1C-pit-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Upward & Downward/1Q1C-vol-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Upward & Downward/1Q1C-pan-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Upward & Downward/1Q1C-tap-tex-con upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Upward & Downward/1Q1C-tap-tex-dis upward.wav'></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr">Fluctuated</td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Fluctuated/1Q1C-pit-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Fluctuated/1Q1C-vol-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Fluctuated/1Q1C-pan-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Fluctuated/1Q1C-tap-tex-con fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bar Chart & Pie Chart/Fluctuated/1Q1C-tap-tex-dis fluc.wav'></td>
+  </tr>
+</tbody>
+</table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
+.tg .tg-0thz{border-color:inherit;font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<h2>Line Chart & Scatter Plot</h2>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-za14" colspan="4"></th>
+    <th class="tg-za14">1Q-1Q</th>
+    <th class="tg-za14">1Q-1Q</th>
+    <th class="tg-za14">1Q-1Q</th>
+    <th class="tg-za14">1Q-1Q</th>
+    <th class="tg-za14">1Q-1Q</th>
+    <th class="tg-za14">1Q-1Q</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0thz" colspan="4"><span style="font-weight:bold">Temporal</span></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="11">Auditory Dimension</td>
+    <td class="tg-0thz" colspan="3"><span style="font-weight:bold">Speech</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="10">Non-Speech</td>
+    <td class="tg-fymr" rowspan="6">Auditory Channel</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Pitch</span></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Volume</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Panning</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Length</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Tapping</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Timbre</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="2">Polarity</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Positive</span></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Negative</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="2">Continuity</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Continuous</span></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Discrete</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+  </tr>
+  <tr>
+    <td class="tg-za14" colspan="2" rowspan="2"></td>
+    <td class="tg-0thz" rowspan="2">Audio </td>
+    <td class="tg-0thz">Up &amp; Down</td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Upward & Downward/2Q-pit-yax-con upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Upward & Downward/2Q-vol-yax-con upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Upward & Downward/2Q-pan-yax-con upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Upward & Downward/2Q-pit-yax-dis upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Upward & Downward/2Q-vol-yax-dis upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Upward & Downward/2Q-pan-yax-con upward.wav'></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr">Fluctuated</td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Fluctuated/2Q-pit-yax-con fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Fluctuated/2Q-vol-yax-con fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Fluctuated/2Q-pan-yax-con fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Fluctuated/2Q-pit-yax-dis fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Fluctuated/2Q-vol-yax-dis fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Line Chart & Scatter Plot/Fluctuated/2Q-pan-yax-con fluc.wav'></td>
+  </tr>
+</tbody>
+</table>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
+.tg .tg-0thz{border-color:inherit;font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+</style>
+<h2>Grouped Bar Chart & Stacked Bar Chart</h2>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-za14" colspan="4"></th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+    <th class="tg-za14">1C-1Q-1C</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0thz" colspan="4"><span style="font-weight:bold">Temporal</span></td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+    <td class="tg-0pky" rowspan="2">N</td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="11">Auditory Dimension</td>
+    <td class="tg-0thz" colspan="3"><span style="font-weight:bold">Speech</span></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="10">Non-Speech</td>
+    <td class="tg-fymr" rowspan="6">Auditory Channel</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Pitch</span></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Volume</span></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Panning</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Length</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Tapping</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Timbre</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">N</td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="2">Polarity</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Positive</span></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Negative</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="2">Continuity</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Continuous</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Discrete</span></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+  </tr>
+  <tr>
+    <td class="tg-za14" colspan="2" rowspan="2"></td>
+    <td class="tg-0thz" rowspan="2">Audio </td>
+    <td class="tg-0thz">Up &amp; Down</td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-vol-pit-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-pit-pan-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-pit-tim-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-vol-pit-tex upward(1).wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-vol-pan-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-vol-tim-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-pit-pan-tex upward(1).wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-vol-pan-tex upward(1).wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-pan-tim-tex upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-pit-tap-tex-con upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-vol-tap-tex-con upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-pan-tap-tex-con upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-tap-tim-tex-con upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-pit-tap-tex-dis upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-vol-tap-tex-dis upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-pan-tap-tex-dis upward.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Upward & Downward/1Q2C-tap-tim-tex-dis upward.wav'></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr">Fluctuated</td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-vol-pit-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-pit-pan-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-pit-tim-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-vol-pit-tex fluc(1).wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-vol-pan-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-vol-tim-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-pit-pan-tex fluc(1).wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-vol-pan-tex fluc(1).wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-pan-tim-tex fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-pit-tap-tex-con fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-vol-tap-tex-con fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-pan-tap-tex-con fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-tap-tim-tex-con fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-pit-tap-tex-dis fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-vol-tap-tex-dis fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-pan-tap-tex-dis fluc.wav'></td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Grouped Bar Chart & Stacked Bar Chart/Fluctuated/1Q2C-tap-tim-tex-dis fluc.wav'></td>
+  </tr>
+</tbody>
+</table>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
+.tg .tg-7zrl{text-align:left;vertical-align:bottom}
+.tg .tg-j6zm{font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<h2>Bubble Chart & Double Line Chart</h2>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-za14" colspan="4"></th>
+    <th class="tg-7zrl">1Q-1Q-1C</th>
+    <th class="tg-7zrl">1Q-1Q-1C</th>
+    <th class="tg-7zrl">1Q-1Q-1C</th>
+    <th class="tg-7zrl">1Q-1Q-1C</th>
+    <th class="tg-7zrl">1Q-1Q-1C</th>
+    <th class="tg-7zrl">1Q-1Q-1C</th>
+    <th class="tg-7zrl">1Q-1Q-1C</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-j6zm" colspan="4"><span style="font-weight:bold">Temporal</span></td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-1wig" rowspan="11">Auditory Dimension</td>
+    <td class="tg-j6zm" colspan="3"><span style="font-weight:bold">Speech</span></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig" rowspan="10">Non-Speech</td>
+    <td class="tg-1wig" rowspan="6">Auditory Channel</td>
+    <td class="tg-j6zm"><span style="font-weight:bold">Pitch</span></td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">O</td>
+    <td class="tg-7zrl">O</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm"><span style="font-weight:bold">Volume</span></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">O</td>
+    <td class="tg-7zrl">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm"><span style="font-weight:bold">Panning</span></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl">Q</td>
+    <td class="tg-7zrl">O</td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm"><span style="font-weight:bold">Length</span></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm"><span style="font-weight:bold">Tapping</span></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm"><span style="font-weight:bold">Timbre</span></td>
+    <td class="tg-7zrl">O</td>
+    <td class="tg-7zrl">O</td>
+    <td class="tg-7zrl">O</td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig" rowspan="2">Polarity</td>
+    <td class="tg-j6zm"><span style="font-weight:bold">Positive</span></td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm"><span style="font-weight:bold">Negative</span></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig" rowspan="2">Continuity</td>
+    <td class="tg-j6zm"><span style="font-weight:bold">Continuous</span></td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+    <td class="tg-7zrl">x</td>
+  </tr>
+  <tr>
+    <td class="tg-j6zm"><span style="font-weight:bold">Discrete</span></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+    <td class="tg-7zrl"></td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl" colspan="2" rowspan="2"></td>
+    <td class="tg-j6zm" rowspan="2">Audio </td>
+    <td class="tg-j6zm">Up &amp; Down</td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Upward & Downward/2Q1C-pit-yax-tim upward.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Upward & Downward/2Q1C-vol-yax-tim upward.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Upward & Downward/2Q1C-pan-yax-tim upward.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Upward & Downward/2Q1C-vol-pit-yax upward.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Upward & Downward/2Q1C-pit-pan-yax upward.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Upward & Downward/2Q1C-vol-pan-yax upward.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Upward & Downward/2Q1C-pit-pan-yax 1 upward.wav'></td>
+  </tr>
+  <tr>
+    <td class="tg-1wig">Fluctuated</td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Fluctuated/2Q1C-pit-yax-tim fluc.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Fluctuated/2Q1C-vol-yax-tim fluc.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Fluctuated/2Q1C-pan-yax-tim fluc.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Fluctuated/2Q1C-vol-pit-yax fluc.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Fluctuated/2Q1C-pit-pan-yax fluc.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Fluctuated/2Q1C-vol-pan-yax fluc.wav'></td>
+    <td class="tg-7zrl"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart & Double Line Chart/Fluctuated/2Q1C-pit-pan-yax 1 fluc.wav'></td>
+  </tr>
+</tbody>
+</table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
+.tg .tg-0thz{border-color:inherit;font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<h2>Bubble Chart</h2>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-za14" colspan="4"></th>
+    <th class="tg-za14">1Q-1Q-1Q</th>
+    <th class="tg-za14">1Q-1Q-1Q</th>
+    <th class="tg-za14">1Q-1Q-1Q</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0thz" colspan="4"><span style="font-weight:bold">Temporal</span></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="11">Auditory Dimension</td>
+    <td class="tg-0thz" colspan="3"><span style="font-weight:bold">Speech</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="10">Non-Speech</td>
+    <td class="tg-fymr" rowspan="6">Auditory Channel</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Pitch</span></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Volume</span></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Panning</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14">Q</td>
+    <td class="tg-za14">Q</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Length</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Tapping</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Timbre</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="2">Polarity</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Positive</span></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Negative</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr" rowspan="2">Continuity</td>
+    <td class="tg-0thz"><span style="font-weight:bold">Continuous</span></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+    <td class="tg-za14"></td>
+  </tr>
+  <tr>
+    <td class="tg-0thz"><span style="font-weight:bold">Discrete</span></td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+    <td class="tg-za14">x</td>
+  </tr>
+  <tr>
+    <td class="tg-za14" colspan="2" rowspan="2"></td>
+    <td class="tg-0thz" rowspan="2">Audio </td>
+    <td class="tg-0thz">Up &amp; Down</td>
+    <td class="tg-za14"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart/Upward & Downward/3Q-vol-pit-yax upward.wav'></td>
+    <td class="tg-0pky"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart/Upward & Downward/3Q-pit-pan-yax upward.wav'></td>
+    <td class="tg-0pky"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart/Upward & Downward/3Q-vol-pan-yax upward.wav'></td>
+  </tr>
+  <tr>
+    <td class="tg-fymr">Fluctuated</td>
+    <td class="tg-0pky"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart/Fluctuated/3Q-vol-pit-yax fluc.wav'></td>
+    <td class="tg-0pky"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart/Fluctuated/3Q-pit-pan-yax fluc.wav'></td>
+    <td class="tg-0pky"><img src=./imgs/audio.png class='part2' id='part2/Bubble Chart/Fluctuated/3Q-vol-pan-yax fluc.wav'></td>
+  </tr>
+</tbody>
+</table>
+</body>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script>
+$( document ).ready(function() {
+	$( 'img' ).on( "click", function() {
+	  part = $(this).attr("class")
+    url = "./audio/" + "/" + this.id
+
+	  console.log(url)
+	  new Audio(url).play();
+	  $(this).addClass('played')
+	});
+
+	$('#part1reset').on("click", function() {
+		$('img.part1').removeClass('played')
+	})
+
+	$('#part2reset').on("click", function() {
+		$('img.part2').removeClass('played')
+	})
+});
+
+</script>
+
+</html>
