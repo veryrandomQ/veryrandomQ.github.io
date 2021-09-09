@@ -3,14 +3,22 @@
 <body>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
 .tg .tg-0thz{border-color:inherit;font-weight:bold;text-align:left;vertical-align:bottom}
 .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 .tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+img:hover{
+  background-color:grey;
+  cursor: pointer;
+}
+body{
+  font-family: 'Avenir Next' !important;
+}
+
 </style>
 <h2>Bar Chart & Pie Chart</h2>
 <table class="tg">
@@ -143,9 +151,9 @@
 </table>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
 .tg .tg-0thz{border-color:inherit;font-weight:bold;text-align:left;vertical-align:bottom}
@@ -304,9 +312,9 @@
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
 .tg .tg-0thz{border-color:inherit;font-weight:bold;text-align:left;vertical-align:bottom}
@@ -613,9 +621,9 @@
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
 .tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
@@ -789,9 +797,9 @@
 </table>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg td{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+.tg th{border-color:black;border-style:solid;border-width:1px;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-za14{border-color:inherit;text-align:left;vertical-align:bottom}
 .tg .tg-0thz{border-color:inherit;font-weight:bold;text-align:left;vertical-align:bottom}
@@ -907,22 +915,18 @@
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
 <script>
 $( document ).ready(function() {
+  curr = null;
 	$( 'img' ).on( "click", function() {
 	  part = $(this).attr("class")
     url = "./audio/" + "/" + this.id
 
 	  console.log(url)
-	  new Audio(url).play();
-	  $(this).addClass('played')
+    if (curr != null) {
+      curr.pause()
+    }
+    curr = new Audio(url);
+    curr.play();
 	});
-
-	$('#part1reset').on("click", function() {
-		$('img.part1').removeClass('played')
-	})
-
-	$('#part2reset').on("click", function() {
-		$('img.part2').removeClass('played')
-	})
 });
 
 </script>
