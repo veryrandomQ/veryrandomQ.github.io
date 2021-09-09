@@ -919,16 +919,28 @@ body{
 <script>
 $( document ).ready(function() {
   curr = null;
+  temp = null;
 	$( 'img' ).on( "click", function() {
 	  part = $(this).attr("class")
     url = "./audio/" + "/" + this.id
 
 	  console.log(url)
-    if (curr != null) {
-      curr.pause()
+    if(curr == null){
+      curr = new Audio(url);
+      temp = url;
+      curr.play();
+    }else if(temp == url){
+      if(curr.paused){
+        curr.play();
+      }else{
+        curr.pause();
+      }
+    }else{
+      curr.pause();
+      curr = new Audio(url);
+      temp = url;
+      curr.play();
     }
-    curr = new Audio(url);
-    curr.play();
 	});
 });
 
